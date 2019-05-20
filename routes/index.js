@@ -4,13 +4,13 @@ var router = express.Router();
 /* GET home page. */
 router.get('/api/test', function (req, res, next) {
   // res.render('index', { title: 'Express' });
-  res.status(200).json({ success: false, message: "Success master" })
+  res.status(200).json({ success: false, message: "Success develop" })
 });
 
 
 router.get('/api/v2', function (req, res, next) {
   // res.render('index', { title: 'Express' });
-  res.status(200).json({ success: true, message: "master" })
+  res.status(200).json({ success: true, message: "develop" })
 });
 
 
